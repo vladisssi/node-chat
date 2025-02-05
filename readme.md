@@ -1,10 +1,22 @@
-# Chat (with Node.js) 
-Implement a chat application (both client and server)
+# Chat Application
 
-- You type a username and send it to the server
-- It is now username (save it in localStorage)
-- All the messages should have an author, time and text
-- Implement an ability to create rooms (create / rename / join / delete)
-- New user should see all prev messages in the room
+A real-time chat application built with Node.js, allowing users to communicate in different rooms. It features creating, renaming, joining, and deleting rooms, along with message history visibility for new users.
 
-**Read [the guideline](https://github.com/mate-academy/js_task-guideline/blob/master/README.md) before start**
+## Features
+
+- **Username**: Users can enter a username, which is saved in `localStorage`.
+- **Messages**: Each message includes the author's name, timestamp, and text.
+- **Rooms**: Users can create, rename, join, and delete rooms.
+- **History**: New users see all previous messages in the room.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+
+2. Install dependencies and run the server:
+  ```bash
+  cd <project_folder>
+  npm install
+  npm start
