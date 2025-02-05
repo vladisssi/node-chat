@@ -13,7 +13,7 @@ A real-time chat application built with Node.js, allowing users to communicate i
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/vladisssi/node-chat
 
 2. Install dependencies and run the server:
   ```bash
